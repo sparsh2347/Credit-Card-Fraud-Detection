@@ -15,12 +15,24 @@ The trained model and all encoders are integrated into a Streamlit frontend, all
 
 ---
 
+## 📸 App Preview
+
+Here's a preview of the Credit Card Fraud Detection app built with Streamlit:
+
+![Streamlit App Screenshot](Fraud_Detection_UI.png)
+
+Users can input transaction details and instantly get predictions for fraud detection.
+
+---
+
 ## 🧠 How It Works
 
 - **Input**: Transaction details (category, gender, location, amount, etc.)
 - **Preprocessing**: Encoders convert categorical features to numerical format
 - **Model**: A trained `RandomForestClassifier` predicts fraud or legit
 - **Output**: ✅ Legit transaction or 🚨 Fraudulent transaction
+
+---
 
 ## ⚙️ Workflow Summary
 
@@ -82,7 +94,6 @@ fraud-detection-app/
 
 - Source: [Kaggle Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
----
 ---
 
 ## 📊 Model Performance
